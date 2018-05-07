@@ -10,6 +10,6 @@ def key_for_min_value(hash)
     if hash[key] < hash[smallest]
       smallest = key
     end
-    smallest
   end
+  smallest
 end
