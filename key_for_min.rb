@@ -7,7 +7,7 @@ def key_for_min_value(hash)
     if smallest == nil
       smallest = key
     end
-    if hash[key] < smallest[key]
+    if hash[key] < hash[smallest]
       smallest = key
     end
   end
