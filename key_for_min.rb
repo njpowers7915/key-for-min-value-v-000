@@ -6,7 +6,8 @@ def key_for_min_value(hash)
   hash.each do |key, value|
     if smallest = nil
       smallest = key
-    elsif value < smallest
+    end
+    if value < smallest
       smallest = key
     end
   end
